@@ -12,7 +12,6 @@ var core_1 = require('@angular/core');
 var Umsatz_1 = require('../Umsaetze/Umsatz');
 var AppComponent = (function () {
     function AppComponent() {
-        this.THEname = 'The Cool App';
         this.THEname = "7";
         this.einUmsatz = new Umsatz_1.Umsatz();
         this.einUmsatz.Text = "REWE sagt Danke!";
@@ -28,4 +27,28 @@ var AppComponent = (function () {
     return AppComponent;
 }());
 exports.AppComponent = AppComponent;
+var Liste = (function () {
+    function Liste() {
+    }
+    Liste = __decorate([
+        core_1.Component({
+            template: "\n  <h1>Liste</h1>\n"
+        }), 
+        __metadata('design:paramtypes', [])
+    ], Liste);
+    return Liste;
+}());
+exports.Liste = Liste;
+var Liste2 = (function () {
+    function Liste2() {
+    }
+    Liste2 = __decorate([
+        core_1.Component({
+            template: "\n  <h1>Liste2</h1>\n"
+        }), 
+        __metadata('design:paramtypes', [])
+    ], Liste2);
+    return Liste2;
+}());
+exports.Liste2 = Liste2;
 //# sourceMappingURL=AppComponent.js.map

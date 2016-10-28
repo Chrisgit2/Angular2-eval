@@ -1,4 +1,5 @@
-﻿import { Component } from '@angular/core';
+﻿import { Component} from '@angular/core';
+import { RouterModule  } from '@angular/router';
 import { Umsatz } from '../Umsaetze/Umsatz';
 
 @Component({
@@ -7,7 +8,7 @@ import { Umsatz } from '../Umsaetze/Umsatz';
 })
 export class AppComponent
 {
-    THEname = 'The Cool App';
+    THEname;
 
     einUmsatz: Umsatz;
 
@@ -17,7 +18,22 @@ export class AppComponent
         this.einUmsatz = new Umsatz();
         this.einUmsatz.Text = "REWE sagt Danke!";
         this.einUmsatz.Amount = 17.3;
-
     }    
 
+}
+
+@Component({
+    template: `
+  <h1>Liste</h1>
+`
+})
+export class Liste {
+}
+
+@Component({
+    template: `
+  <h1>Liste2</h1>
+`
+})
+export class Liste2 {
 }
