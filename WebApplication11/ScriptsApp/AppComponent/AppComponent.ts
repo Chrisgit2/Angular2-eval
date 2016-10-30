@@ -1,6 +1,6 @@
 ﻿import { Component} from '@angular/core';
 import { RouterModule  } from '@angular/router';
-import { Umsatz } from '../Umsaetze/Umsatz';
+import { Taking } from '../Takings/Domain/Taking';
 
 @Component({
     selector: 'my-app',    
@@ -10,12 +10,12 @@ export class AppComponent
 {
     THEname;
 
-    einUmsatz: Umsatz;
+    einUmsatz: Taking;
 
     constructor()
     {
         this.THEname = "7";
-        this.einUmsatz = new Umsatz();
+        this.einUmsatz = new Taking();
         this.einUmsatz.Text = "REWE sagt Danke!";
         this.einUmsatz.Amount = 17.3;
     }    

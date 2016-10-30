@@ -241,7 +241,7 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="package.json" />
-    <Content Include="ScriptsApp\AppComponent\AppComponent.component.css" />
+    <Content Include="ScriptsApp\Takings\GUI\TakingList\TakingList.component.html" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -295,6 +295,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="ScriptsApp\Auswertung\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -306,9 +307,15 @@
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="ScriptsApp\appModule.ts" />
+    <TypeScriptCompile Include="ScriptsApp\AppRoutingModule.ts" />
     <TypeScriptCompile Include="ScriptsApp\boot.ts" />
     <TypeScriptCompile Include="ScriptsApp\AppComponent\AppComponent.ts" />
-    <TypeScriptCompile Include="ScriptsApp\Umsaetze\Umsatz.ts" />
+    <TypeScriptCompile Include="ScriptsApp\Catogories\Domain\Category.ts" />
+    <TypeScriptCompile Include="ScriptsApp\Catogories\GUI\Category.module.ts" />
+    <TypeScriptCompile Include="ScriptsApp\Catogories\GUI\CategoryList\CategoryList.component.ts" />
+    <TypeScriptCompile Include="ScriptsApp\Takings\Domain\Taking.ts" />
+    <TypeScriptCompile Include="ScriptsApp\Takings\GUI\Takings.module.ts" />
+    <TypeScriptCompile Include="ScriptsApp\Takings\GUI\TakingList\TakingList.component.ts" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />

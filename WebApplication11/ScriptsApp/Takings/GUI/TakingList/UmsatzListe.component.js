@@ -9,46 +9,16 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-var Taking_1 = require('../Takings/Domain/Taking');
-var AppComponent = (function () {
-    function AppComponent() {
-        this.THEname = "7";
-        this.einUmsatz = new Taking_1.Taking();
-        this.einUmsatz.Text = "REWE sagt Danke!";
-        this.einUmsatz.Amount = 17.3;
-    }
-    AppComponent = __decorate([
-        core_1.Component({
-            selector: 'my-app',
-            templateUrl: 'ScriptsApp/AppComponent/AppComponent.component.html'
-        }), 
-        __metadata('design:paramtypes', [])
-    ], AppComponent);
-    return AppComponent;
-}());
-exports.AppComponent = AppComponent;
 var Liste = (function () {
     function Liste() {
     }
     Liste = __decorate([
         core_1.Component({
-            template: "\n  <h1>Liste</h1>\n"
+            template: "\n  <h1>Umsatzliste</h1>\n"
         }), 
         __metadata('design:paramtypes', [])
     ], Liste);
     return Liste;
 }());
 exports.Liste = Liste;
-var Liste2 = (function () {
-    function Liste2() {
-    }
-    Liste2 = __decorate([
-        core_1.Component({
-            template: "\n  <h1>Liste2</h1>\n"
-        }), 
-        __metadata('design:paramtypes', [])
-    ], Liste2);
-    return Liste2;
-}());
-exports.Liste2 = Liste2;
-//# sourceMappingURL=AppComponent.js.map
+//# sourceMappingURL=UmsatzListe.component.js.map
