@@ -11,6 +11,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var core_1 = require('@angular/core');
 var common_1 = require('@angular/common');
 var forms_1 = require('@angular/forms');
+var TakingList_component_1 = require('./TakingList/TakingList.component');
 var UmsatzModule = (function () {
     function UmsatzModule() {
     }
@@ -18,7 +19,7 @@ var UmsatzModule = (function () {
         core_1.NgModule({
             imports: [common_1.CommonModule, forms_1.FormsModule],
             declarations: [],
-            exports: [] //ContactComponent
+            exports: [TakingList_component_1.TakingsListComponent] //ContactComponent
         }), 
         __metadata('design:paramtypes', [])
     ], UmsatzModule);

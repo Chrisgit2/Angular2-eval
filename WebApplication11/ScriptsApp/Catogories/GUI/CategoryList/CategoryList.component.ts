@@ -4,5 +4,5 @@
   <h1>Kategorieliste</h1>
 `
 })
-export class Categorylist {
+export class CategoryListComponent {
 }

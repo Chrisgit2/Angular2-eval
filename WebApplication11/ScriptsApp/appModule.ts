@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { RouterModule } from '@angular/router';
 
 import { AppComponent, Liste, Liste2 } from './AppComponent/AppComponent';
+import { TakingsModule } from './Takings/'
 
 @NgModule({
     imports: [BrowserModule,

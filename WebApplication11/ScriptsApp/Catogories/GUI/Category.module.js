@@ -11,6 +11,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var core_1 = require('@angular/core');
 var common_1 = require('@angular/common');
 var forms_1 = require('@angular/forms');
+var CategoryList_component_1 = require('./CategoryList/CategoryList.component');
 var CategoryModule = (function () {
     function CategoryModule() {
     }
@@ -18,7 +19,7 @@ var CategoryModule = (function () {
         core_1.NgModule({
             imports: [common_1.CommonModule, forms_1.FormsModule],
             declarations: [],
-            exports: [] //ContactComponent
+            exports: [CategoryList_component_1.CategoryListComponent] //ContactComponent
         }), 
         __metadata('design:paramtypes', [])
     ], CategoryModule);
