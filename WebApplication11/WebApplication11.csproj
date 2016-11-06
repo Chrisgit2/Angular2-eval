@@ -233,7 +233,7 @@
     <Content Include="Content\Site.css" />
     <Content Include="gulpfile.js" />
     <Content Include="ScriptsApp\AppComponent\AppComponent.component.html" />
-    <Content Include="ScriptsApp\Catogories\GUI\CategoryList\CategoryList.View.html" />
+    <Content Include="ScriptsApp\GUI\TakingCategory\TakingCategoryList\TakingCategoryList.View.html" />
     <Content Include="Scripts\ai.0.22.19-build00125.js" />
     <Content Include="Scripts\ai.0.22.19-build00125.min.js" />
     <Content Include="Scripts\bootstrap.js" />
@@ -242,7 +242,7 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="package.json" />
-    <Content Include="ScriptsApp\Takings\GUI\TakingList\TakingList.component.html" />
+    <Content Include="ScriptsApp\GUI\Taking\TakingList\TakingList.component.html" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -311,12 +311,14 @@
     <TypeScriptCompile Include="ScriptsApp\AppRoutingModule.ts" />
     <TypeScriptCompile Include="ScriptsApp\boot.ts" />
     <TypeScriptCompile Include="ScriptsApp\AppComponent\AppComponent.ts" />
-    <TypeScriptCompile Include="ScriptsApp\Catogories\Domain\Category.ts" />
-    <TypeScriptCompile Include="ScriptsApp\Catogories\GUI\Category.module.ts" />
-    <TypeScriptCompile Include="ScriptsApp\Catogories\GUI\CategoryList\CategoryList.component.ts" />
-    <TypeScriptCompile Include="ScriptsApp\Takings\Domain\Taking.ts" />
-    <TypeScriptCompile Include="ScriptsApp\Takings\Takings.module.ts" />
-    <TypeScriptCompile Include="ScriptsApp\Takings\GUI\TakingList\TakingList.component.ts" />
+    <TypeScriptCompile Include="ScriptsApp\Domain\TakingCategory\TakingCategory.Domain.module.ts" />
+    <TypeScriptCompile Include="ScriptsApp\Domain\TakingCategory\TakingCategory.ts" />
+    <TypeScriptCompile Include="ScriptsApp\GUI\TakingCategory\TakingCategoryList\TakingCategoryList.component.ts" />
+    <TypeScriptCompile Include="ScriptsApp\Domain\Taking\Taking.Domain.module.ts" />
+    <TypeScriptCompile Include="ScriptsApp\Domain\Taking\Taking.ts" />
+    <TypeScriptCompile Include="ScriptsApp\GUI\TakingCategory\TakingCategory.GUI.module.ts" />
+    <TypeScriptCompile Include="ScriptsApp\GUI\Taking\Taking.GUI.module.ts" />
+    <TypeScriptCompile Include="ScriptsApp\GUI\Taking\TakingList\TakingList.component.ts" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />

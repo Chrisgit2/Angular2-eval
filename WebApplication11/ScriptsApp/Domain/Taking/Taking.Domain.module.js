@@ -11,18 +11,19 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var core_1 = require('@angular/core');
 var common_1 = require('@angular/common');
 var forms_1 = require('@angular/forms');
-var UmsatzModule = (function () {
-    function UmsatzModule() {
+var Taking_1 = require('./Taking');
+var TakingDomainModule = (function () {
+    function TakingDomainModule() {
     }
-    UmsatzModule = __decorate([
+    TakingDomainModule = __decorate([
         core_1.NgModule({
             imports: [common_1.CommonModule, forms_1.FormsModule],
             declarations: [],
-            exports: [] //ContactComponent
+            exports: [Taking_1.Taking] //ContactComponent
         }), 
         __metadata('design:paramtypes', [])
-    ], UmsatzModule);
-    return UmsatzModule;
+    ], TakingDomainModule);
+    return TakingDomainModule;
 }());
-exports.UmsatzModule = UmsatzModule;
-//# sourceMappingURL=Umsatz.module.js.map
+exports.TakingDomainModule = TakingDomainModule;
+//# sourceMappingURL=Taking.Domain.module.js.map

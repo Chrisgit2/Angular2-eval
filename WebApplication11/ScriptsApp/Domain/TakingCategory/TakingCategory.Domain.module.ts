@@ -1,11 +1,11 @@
 ﻿import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-import {CategoryListComponent } from './CategoryList/CategoryList.component';
+import { TakingCategory }from './TakingCategory'
 @NgModule({
     imports: [CommonModule, FormsModule],
     declarations: [],//ContactComponent, HighlightDirective, AwesomePipe
-    exports: [CategoryListComponent]//ContactComponent
+    exports: [TakingCategory]//ContactComponent
     //,providers: [ContactService]
 })
-export class CategoryModule { }
+export class TakingCategoryModule { }

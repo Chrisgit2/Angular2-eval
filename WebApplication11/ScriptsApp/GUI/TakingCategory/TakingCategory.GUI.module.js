@@ -11,18 +11,19 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var core_1 = require('@angular/core');
 var common_1 = require('@angular/common');
 var forms_1 = require('@angular/forms');
-var UmsathzlisteModule = (function () {
-    function UmsathzlisteModule() {
+var TakingCategoryList_component_1 = require('./TakingCategoryList/TakingCategoryList.component');
+var TakingCategoryModule = (function () {
+    function TakingCategoryModule() {
     }
-    UmsathzlisteModule = __decorate([
+    TakingCategoryModule = __decorate([
         core_1.NgModule({
             imports: [common_1.CommonModule, forms_1.FormsModule],
             declarations: [],
-            exports: [] //ContactComponent
+            exports: [TakingCategoryList_component_1.TakingCategoryListComponent] //ContactComponent
         }), 
         __metadata('design:paramtypes', [])
-    ], UmsathzlisteModule);
-    return UmsathzlisteModule;
+    ], TakingCategoryModule);
+    return TakingCategoryModule;
 }());
-exports.UmsathzlisteModule = UmsathzlisteModule;
-//# sourceMappingURL=UmsatzListe.js.map
+exports.TakingCategoryModule = TakingCategoryModule;
+//# sourceMappingURL=TakingCategory.GUI.module.js.map

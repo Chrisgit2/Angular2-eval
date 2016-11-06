@@ -11,19 +11,19 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var core_1 = require('@angular/core');
 var common_1 = require('@angular/common');
 var forms_1 = require('@angular/forms');
-var CategoryList_component_1 = require('./CategoryList/CategoryList.component');
-var CategoryModule = (function () {
-    function CategoryModule() {
+var TakingCategory_1 = require('./TakingCategory');
+var TakingCategoryModule = (function () {
+    function TakingCategoryModule() {
     }
-    CategoryModule = __decorate([
+    TakingCategoryModule = __decorate([
         core_1.NgModule({
             imports: [common_1.CommonModule, forms_1.FormsModule],
             declarations: [],
-            exports: [CategoryList_component_1.CategoryListComponent] //ContactComponent
+            exports: [TakingCategory_1.TakingCategory] //ContactComponent
         }), 
         __metadata('design:paramtypes', [])
-    ], CategoryModule);
-    return CategoryModule;
+    ], TakingCategoryModule);
+    return TakingCategoryModule;
 }());
-exports.CategoryModule = CategoryModule;
-//# sourceMappingURL=Category.module.js.map
+exports.TakingCategoryModule = TakingCategoryModule;
+//# sourceMappingURL=TakingCategory.Domain.module.js.map

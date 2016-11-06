@@ -1,6 +1,6 @@
 ﻿import { Component} from '@angular/core';
 import { RouterModule  } from '@angular/router';
-import { Taking } from '../Takings/Domain/Taking';
+import { Taking } from '../Domain/Taking/Taking';
 
 @Component({
     selector: 'my-app',    

@@ -11,18 +11,19 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var core_1 = require('@angular/core');
 var common_1 = require('@angular/common');
 var forms_1 = require('@angular/forms');
-var UmsatzListeModule = (function () {
-    function UmsatzListeModule() {
+var TakingList_component_1 = require('./TakingList/TakingList.component');
+var TakingsModule = (function () {
+    function TakingsModule() {
     }
-    UmsatzListeModule = __decorate([
+    TakingsModule = __decorate([
         core_1.NgModule({
             imports: [common_1.CommonModule, forms_1.FormsModule],
             declarations: [],
-            exports: [] //ContactComponent
+            exports: [TakingList_component_1.TakingsListComponent] //ContactComponent
         }), 
         __metadata('design:paramtypes', [])
-    ], UmsatzListeModule);
-    return UmsatzListeModule;
+    ], TakingsModule);
+    return TakingsModule;
 }());
-exports.UmsatzListeModule = UmsatzListeModule;
-//# sourceMappingURL=UmsatzListe.module.js.map
+exports.TakingsModule = TakingsModule;
+//# sourceMappingURL=Taking.GUI.module.js.map

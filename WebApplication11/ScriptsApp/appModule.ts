@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { RouterModule } from '@angular/router';
 
 import { AppComponent, Liste, Liste2 } from './AppComponent/AppComponent';
-import { TakingsModule } from './Takings/'
+import { TakingDomainModule } from './Domain/Taking/Taking.Domain.module'
 
 @NgModule({
     imports: [BrowserModule,
