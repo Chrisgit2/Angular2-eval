@@ -12,18 +12,18 @@ var core_1 = require('@angular/core');
 var common_1 = require('@angular/common');
 var forms_1 = require('@angular/forms');
 var TakingCategory_1 = require('./TakingCategory');
-var TakingCategoryModule = (function () {
-    function TakingCategoryModule() {
+var TakingCategoryDomainModule = (function () {
+    function TakingCategoryDomainModule() {
     }
-    TakingCategoryModule = __decorate([
+    TakingCategoryDomainModule = __decorate([
         core_1.NgModule({
             imports: [common_1.CommonModule, forms_1.FormsModule],
             declarations: [],
             exports: [TakingCategory_1.TakingCategory] //ContactComponent
         }), 
         __metadata('design:paramtypes', [])
-    ], TakingCategoryModule);
-    return TakingCategoryModule;
+    ], TakingCategoryDomainModule);
+    return TakingCategoryDomainModule;
 }());
-exports.TakingCategoryModule = TakingCategoryModule;
+exports.TakingCategoryDomainModule = TakingCategoryDomainModule;
 //# sourceMappingURL=TakingCategory.Domain.module.js.map

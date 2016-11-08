@@ -8,4 +8,4 @@ import { TakingCategory }from './TakingCategory'
     exports: [TakingCategory]//ContactComponent
     //,providers: [ContactService]
 })
-export class TakingCategoryModule { }
+export class TakingCategoryDomainModule { }

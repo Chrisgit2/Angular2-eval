@@ -4,5 +4,5 @@
   <h1>Umsatzliste</h1>
 `
 })
-export class TakingsListComponent {
+export class TakingListComponent {
 }

@@ -8,4 +8,4 @@ import { TakingCategoryListComponent } from './TakingCategoryList/TakingCategory
     exports: [TakingCategoryListComponent]//ContactComponent
     //,providers: [ContactService]
 })
-export class TakingCategoryModule { }
+export class TakingCategoryGUIModule { }

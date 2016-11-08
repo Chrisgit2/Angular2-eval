@@ -1,12 +1,12 @@
 ﻿import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-import { TakingsListComponent } from './TakingList/TakingList.component';
+import { TakingListComponent } from './TakingList/TakingList.component';
 
 @NgModule({
     imports: [CommonModule, FormsModule],
-    declarations: [],//ContactComponent, HighlightDirective, AwesomePipe
-    exports: [TakingsListComponent]//ContactComponent
+    declarations: [TakingListComponent],
+    exports: [TakingListComponent]
     //,providers: [ContactService]
 })
-export class TakingsModule { }
+export class TakingGUIModule { }

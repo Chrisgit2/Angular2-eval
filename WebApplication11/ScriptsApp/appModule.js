@@ -10,19 +10,15 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 var core_1 = require('@angular/core');
 var platform_browser_1 = require('@angular/platform-browser');
-var router_1 = require('@angular/router');
 var AppComponent_1 = require('./AppComponent/AppComponent');
+var AppRoutingModule_1 = require('./AppRoutingModule');
+//TakingGUIModule
 var AppModule = (function () {
     function AppModule() {
     }
     AppModule = __decorate([
         core_1.NgModule({
-            imports: [platform_browser_1.BrowserModule,
-                router_1.RouterModule.forRoot([
-                    { path: 'Liste2', component: AppComponent_1.Liste2 },
-                    { path: 'Liste', component: AppComponent_1.Liste }
-                ])
-            ],
+            imports: [platform_browser_1.BrowserModule, AppRoutingModule_1.AppRoutingModule],
             declarations: [AppComponent_1.AppComponent, AppComponent_1.Liste, AppComponent_1.Liste2],
             bootstrap: [AppComponent_1.AppComponent]
         }), 
@@ -31,4 +27,7 @@ var AppModule = (function () {
     return AppModule;
 }());
 exports.AppModule = AppModule;
+//RouterModule.forRoot([
+//    { path: 'Liste2', component: TakingListComponent },
+//    { path: 'Liste', component: TakingCategoryListComponent }       
 //# sourceMappingURL=appModule.js.map

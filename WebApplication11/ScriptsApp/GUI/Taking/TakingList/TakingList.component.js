@@ -9,16 +9,16 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-var TakingsListComponent = (function () {
-    function TakingsListComponent() {
+var TakingListComponent = (function () {
+    function TakingListComponent() {
     }
-    TakingsListComponent = __decorate([
+    TakingListComponent = __decorate([
         core_1.Component({
             template: "\n  <h1>Umsatzliste</h1>\n"
         }), 
         __metadata('design:paramtypes', [])
-    ], TakingsListComponent);
-    return TakingsListComponent;
+    ], TakingListComponent);
+    return TakingListComponent;
 }());
-exports.TakingsListComponent = TakingsListComponent;
+exports.TakingListComponent = TakingListComponent;
 //# sourceMappingURL=TakingList.component.js.map
