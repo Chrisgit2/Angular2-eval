@@ -12,13 +12,15 @@ var core_1 = require('@angular/core');
 var platform_browser_1 = require('@angular/platform-browser');
 var AppComponent_1 = require('./AppComponent/AppComponent');
 var AppRoutingModule_1 = require('./AppRoutingModule');
+//Feature Modul
+var Taking_GUI_module_1 = require('./GUI/Taking/Taking.GUI.module');
 //TakingGUIModule
 var AppModule = (function () {
     function AppModule() {
     }
     AppModule = __decorate([
         core_1.NgModule({
-            imports: [platform_browser_1.BrowserModule, AppRoutingModule_1.AppRoutingModule],
+            imports: [platform_browser_1.BrowserModule, AppRoutingModule_1.AppRoutingModule, Taking_GUI_module_1.TakingGUIModule],
             declarations: [AppComponent_1.AppComponent, AppComponent_1.Liste, AppComponent_1.Liste2],
             bootstrap: [AppComponent_1.AppComponent]
         }), 

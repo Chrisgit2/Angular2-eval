@@ -4,13 +4,14 @@ import { RouterModule } from '@angular/router';
 
 import { AppComponent, Liste, Liste2 } from './AppComponent/AppComponent';
 import { AppRoutingModule } from './AppRoutingModule'
-import { TakingDomainModule } from './Domain/Taking/Taking.Domain.module'
-//import { TakingGUIModule } from './GUI/Taking/Taking.GUI.module'
+
+//Feature Modul
+import { TakingGUIModule } from './GUI/Taking/Taking.GUI.module'
 import { TakingListComponent } from './GUI/Taking/TakingList/TakingList.component'
 import { TakingCategoryListComponent } from './GUI/TakingCategory/TakingCategoryList/TakingCategoryList.component'
 //TakingGUIModule
 @NgModule({
-    imports: [BrowserModule, AppRoutingModule],
+    imports: [BrowserModule, AppRoutingModule, TakingGUIModule],
     declarations: [AppComponent, Liste, Liste2 ],
     bootstrap: [AppComponent]
 })
