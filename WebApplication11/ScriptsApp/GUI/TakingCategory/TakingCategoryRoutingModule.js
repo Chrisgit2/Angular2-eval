@@ -10,24 +10,20 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 var core_1 = require('@angular/core');
 var router_1 = require('@angular/router');
-var AppComponent_1 = require('./AppComponent/AppComponent');
-exports.routes = [
-    { path: '', redirectTo: 'takings', pathMatch: 'full' },
-    { path: '', redirectTo: 'takingcategories', pathMatch: 'full' },
-    { path: 'Liste2', component: AppComponent_1.Liste2 },
-    { path: 'Liste', component: AppComponent_1.Liste }
-];
-var AppRoutingModule = (function () {
-    function AppRoutingModule() {
+var TakingCategoryList_component_1 = require('./TakingCategoryList/TakingCategoryList.component');
+var TakingCategoryRoutingModule = (function () {
+    function TakingCategoryRoutingModule() {
     }
-    AppRoutingModule = __decorate([
+    TakingCategoryRoutingModule = __decorate([
         core_1.NgModule({
-            imports: [router_1.RouterModule.forRoot(exports.routes)],
+            imports: [router_1.RouterModule.forChild([
+                    { path: 'takingcategories', component: TakingCategoryList_component_1.TakingCategoryListComponent }
+                ])],
             exports: [router_1.RouterModule]
         }), 
         __metadata('design:paramtypes', [])
-    ], AppRoutingModule);
-    return AppRoutingModule;
+    ], TakingCategoryRoutingModule);
+    return TakingCategoryRoutingModule;
 }());
-exports.AppRoutingModule = AppRoutingModule;
-//# sourceMappingURL=AppRoutingModule.js.map
+exports.TakingCategoryRoutingModule = TakingCategoryRoutingModule;
+//# sourceMappingURL=TakingCategoryRoutingModule.js.map

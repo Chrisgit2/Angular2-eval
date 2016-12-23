@@ -317,6 +317,7 @@
     <TypeScriptCompile Include="ScriptsApp\Domain\Taking\Taking.Domain.module.ts" />
     <TypeScriptCompile Include="ScriptsApp\Domain\Taking\Taking.ts" />
     <TypeScriptCompile Include="ScriptsApp\GUI\TakingCategory\TakingCategory.GUI.module.ts" />
+    <TypeScriptCompile Include="ScriptsApp\GUI\TakingCategory\TakingCategoryRoutingModule.ts" />
     <TypeScriptCompile Include="ScriptsApp\GUI\Taking\TakingRoutingModule.ts" />
     <TypeScriptCompile Include="ScriptsApp\GUI\Taking\Taking.GUI.module.ts" />
     <TypeScriptCompile Include="ScriptsApp\GUI\Taking\TakingList\TakingList.component.ts" />

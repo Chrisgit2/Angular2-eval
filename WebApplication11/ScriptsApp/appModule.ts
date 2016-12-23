@@ -7,11 +7,11 @@ import { AppRoutingModule } from './AppRoutingModule'
 
 //Feature Modul
 import { TakingGUIModule } from './GUI/Taking/Taking.GUI.module'
-import { TakingListComponent } from './GUI/Taking/TakingList/TakingList.component'
-import { TakingCategoryListComponent } from './GUI/TakingCategory/TakingCategoryList/TakingCategoryList.component'
+import { TakingCategoryGUIModule } from './GUI/TakingCategory/TakingCategory.GUI.module'
 //TakingGUIModule
+
 @NgModule({
-    imports: [BrowserModule, AppRoutingModule, TakingGUIModule],
+    imports: [BrowserModule, AppRoutingModule, TakingGUIModule, TakingCategoryGUIModule],
     declarations: [AppComponent, Liste, Liste2 ],
     bootstrap: [AppComponent]
 })

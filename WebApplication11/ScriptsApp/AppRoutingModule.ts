@@ -4,7 +4,8 @@ import { Liste, Liste2 } from './AppComponent/AppComponent';
 
 export const routes: Routes = [
     { path: '', redirectTo: 'takings', pathMatch: 'full' },
-    { path: 'Liste2', component: Liste2 },
+    { path: '', redirectTo: 'takingcategories', pathMatch: 'full' },
+    { path: 'Liste2', component: Liste2 }, 
     { path: 'Liste', component: Liste }
 ];
 
