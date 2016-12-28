@@ -14,7 +14,7 @@ var TakingListComponent = (function () {
     }
     TakingListComponent = __decorate([
         core_1.Component({
-            template: "\n  <h1>Umsatzliste</h1>\n"
+            templateUrl: 'ScriptsApp/GUI/Taking/TakingList/TakingList.component.html'
         }), 
         __metadata('design:paramtypes', [])
     ], TakingListComponent);

@@ -13,13 +13,15 @@ var common_1 = require('@angular/common');
 var forms_1 = require('@angular/forms');
 var TakingList_component_1 = require('./TakingList/TakingList.component');
 var TakingRoutingModule_1 = require('./TakingRoutingModule');
+var Taking_Service_1 = require('../../Domain/Taking/Taking.Service');
 var TakingGUIModule = (function () {
     function TakingGUIModule() {
     }
     TakingGUIModule = __decorate([
         core_1.NgModule({
             imports: [common_1.CommonModule, forms_1.FormsModule, TakingRoutingModule_1.TakingRoutingModule],
-            declarations: [TakingList_component_1.TakingListComponent]
+            declarations: [TakingList_component_1.TakingListComponent],
+            providers: [Taking_Service_1.TakingService]
         }), 
         __metadata('design:paramtypes', [])
     ], TakingGUIModule);

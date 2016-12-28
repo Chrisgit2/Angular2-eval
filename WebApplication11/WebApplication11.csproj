@@ -313,6 +313,8 @@
     <TypeScriptCompile Include="ScriptsApp\AppComponent\AppComponent.ts" />
     <TypeScriptCompile Include="ScriptsApp\Domain\TakingCategory\TakingCategory.Domain.module.ts" />
     <TypeScriptCompile Include="ScriptsApp\Domain\TakingCategory\TakingCategory.ts" />
+    <TypeScriptCompile Include="ScriptsApp\Domain\Taking\Mock-Takings.ts" />
+    <TypeScriptCompile Include="ScriptsApp\Domain\Taking\Taking.service.ts" />
     <TypeScriptCompile Include="ScriptsApp\GUI\Dashboard\Dashboard.GUI.module.ts" />
     <TypeScriptCompile Include="ScriptsApp\GUI\Dashboard\DashboardRoutingModule.ts" />
     <TypeScriptCompile Include="ScriptsApp\GUI\Dashboard\Dashboard\Dashboard.component.ts" />

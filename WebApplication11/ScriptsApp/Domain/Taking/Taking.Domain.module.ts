@@ -5,8 +5,7 @@ import { Taking } from './Taking';
 
 @NgModule({
     imports: [CommonModule, FormsModule],
-    declarations: [],//ContactComponent, HighlightDirective, AwesomePipe
-    exports: [Taking]//ContactComponent
-    //,providers: [ContactService]
+    declarations: [],
+    exports: [Taking]
 })
 export class TakingDomainModule { }
