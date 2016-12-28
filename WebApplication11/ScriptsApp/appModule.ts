@@ -7,13 +7,15 @@ import { AppRoutingModule } from './AppRoutingModule'
 
 //Feature Modul
 import { TakingGUIModule } from './GUI/Taking/Taking.GUI.module'
+import { TakingService } from './Domain/Taking/Taking.service';
 import { TakingCategoryGUIModule } from './GUI/TakingCategory/TakingCategory.GUI.module'
 import { DashboardGUIModule } from './GUI/Dashboard/Dashboard.GUI.module'
 
 
 @NgModule({
     imports: [BrowserModule, AppRoutingModule, TakingGUIModule, TakingCategoryGUIModule, DashboardGUIModule],
-    declarations: [AppComponent, Liste, Liste2 ],
+    declarations: [AppComponent, Liste, Liste2],
+    providers: [TakingService],
     bootstrap: [AppComponent]
 })
 export class AppModule { }

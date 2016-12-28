@@ -1,3 +1,10 @@
 ﻿    <div>
-        <span>Hallo Welt</span>
+        <h1>Umsatzliste</h1>
+        <ul class="takings">
+            <li *ngFor="let taking of takings"
+                [class.selected]="taking === selectedtaking"
+                (click)="onSelect(taking)">
+                <span class="badge">{{taking.id}}</span> {{taking.Amount}} € : {{taking.Text}}
+            </li>
+        </ul>
     </div>

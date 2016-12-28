@@ -9,14 +9,26 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
+var Taking_service_1 = require('../../../Domain/Taking/Taking.service');
 var TakingListComponent = (function () {
-    function TakingListComponent() {
+    function TakingListComponent(takingService) {
+        this.takingService = takingService;
     }
+    TakingListComponent.prototype.getTakings = function () {
+        var _this = this;
+        this.takingService.getTakings().then(function (takings) { return _this.takings = takings; });
+    };
+    TakingListComponent.prototype.ngOnInit = function () {
+        this.getTakings();
+    };
+    TakingListComponent.prototype.onSelect = function (i_taking) {
+        this.selectedTaking = i_taking;
+    };
     TakingListComponent = __decorate([
         core_1.Component({
             templateUrl: 'ScriptsApp/GUI/Taking/TakingList/TakingList.component.html'
         }), 
-        __metadata('design:paramtypes', [])
+        __metadata('design:paramtypes', [Taking_service_1.TakingService])
     ], TakingListComponent);
     return TakingListComponent;
 }());

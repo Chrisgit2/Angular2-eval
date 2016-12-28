@@ -14,6 +14,7 @@ var AppComponent_1 = require('./AppComponent/AppComponent');
 var AppRoutingModule_1 = require('./AppRoutingModule');
 //Feature Modul
 var Taking_GUI_module_1 = require('./GUI/Taking/Taking.GUI.module');
+var Taking_service_1 = require('./Domain/Taking/Taking.service');
 var TakingCategory_GUI_module_1 = require('./GUI/TakingCategory/TakingCategory.GUI.module');
 var Dashboard_GUI_module_1 = require('./GUI/Dashboard/Dashboard.GUI.module');
 var AppModule = (function () {
@@ -23,6 +24,7 @@ var AppModule = (function () {
         core_1.NgModule({
             imports: [platform_browser_1.BrowserModule, AppRoutingModule_1.AppRoutingModule, Taking_GUI_module_1.TakingGUIModule, TakingCategory_GUI_module_1.TakingCategoryGUIModule, Dashboard_GUI_module_1.DashboardGUIModule],
             declarations: [AppComponent_1.AppComponent, AppComponent_1.Liste, AppComponent_1.Liste2],
+            providers: [Taking_service_1.TakingService],
             bootstrap: [AppComponent_1.AppComponent]
         }), 
         __metadata('design:paramtypes', [])

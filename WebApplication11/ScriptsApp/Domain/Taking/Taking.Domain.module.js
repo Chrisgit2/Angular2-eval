@@ -12,6 +12,7 @@ var core_1 = require('@angular/core');
 var common_1 = require('@angular/common');
 var forms_1 = require('@angular/forms');
 var Taking_1 = require('./Taking');
+var Taking_service_1 = require('./Taking.service');
 var TakingDomainModule = (function () {
     function TakingDomainModule() {
     }
@@ -19,7 +20,7 @@ var TakingDomainModule = (function () {
         core_1.NgModule({
             imports: [common_1.CommonModule, forms_1.FormsModule],
             declarations: [],
-            exports: [Taking_1.Taking]
+            exports: [Taking_1.Taking, Taking_service_1.TakingService]
         }), 
         __metadata('design:paramtypes', [])
     ], TakingDomainModule);
