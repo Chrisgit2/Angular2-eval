@@ -233,6 +233,7 @@
     <Content Include="Content\Site.css" />
     <Content Include="gulpfile.js" />
     <Content Include="ScriptsApp\AppComponent\AppComponent.component.html" />
+    <Content Include="ScriptsApp\GUI\Dashboard\Dashboard\Dashboard.component.html" />
     <Content Include="ScriptsApp\GUI\TakingCategory\TakingCategoryList\TakingCategoryList.View.html" />
     <Content Include="Scripts\ai.0.22.19-build00125.js" />
     <Content Include="Scripts\ai.0.22.19-build00125.min.js" />
@@ -296,7 +297,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="ScriptsApp\Auswertung\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -313,6 +313,9 @@
     <TypeScriptCompile Include="ScriptsApp\AppComponent\AppComponent.ts" />
     <TypeScriptCompile Include="ScriptsApp\Domain\TakingCategory\TakingCategory.Domain.module.ts" />
     <TypeScriptCompile Include="ScriptsApp\Domain\TakingCategory\TakingCategory.ts" />
+    <TypeScriptCompile Include="ScriptsApp\GUI\Dashboard\Dashboard.GUI.module.ts" />
+    <TypeScriptCompile Include="ScriptsApp\GUI\Dashboard\DashboardRoutingModule.ts" />
+    <TypeScriptCompile Include="ScriptsApp\GUI\Dashboard\Dashboard\Dashboard.component.ts" />
     <TypeScriptCompile Include="ScriptsApp\GUI\TakingCategory\TakingCategoryList\TakingCategoryList.component.ts" />
     <TypeScriptCompile Include="ScriptsApp\Domain\Taking\Taking.Domain.module.ts" />
     <TypeScriptCompile Include="ScriptsApp\Domain\Taking\Taking.ts" />

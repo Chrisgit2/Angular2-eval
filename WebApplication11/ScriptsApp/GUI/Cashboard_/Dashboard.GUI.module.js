@@ -9,24 +9,21 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-var router_1 = require('@angular/router');
-var AppComponent_1 = require('./AppComponent/AppComponent');
-exports.routes = [
-    { path: '', redirectTo: 'dashboard', pathMatch: 'full' },
-    { path: 'Liste2', component: AppComponent_1.Liste2 },
-    { path: 'Liste', component: AppComponent_1.Liste }
-];
-var AppRoutingModule = (function () {
-    function AppRoutingModule() {
+var common_1 = require('@angular/common');
+var forms_1 = require('@angular/forms');
+var Dashboard_component_1 = require('./Dashboard/Dashboard.component');
+var DashboardRoutingModule_1 = require('./DashboardRoutingModule');
+var DashboardGUIModule = (function () {
+    function DashboardGUIModule() {
     }
-    AppRoutingModule = __decorate([
+    DashboardGUIModule = __decorate([
         core_1.NgModule({
-            imports: [router_1.RouterModule.forRoot(exports.routes)],
-            exports: [router_1.RouterModule]
+            imports: [common_1.CommonModule, forms_1.FormsModule, DashboardRoutingModule_1.DashboardRoutingModule],
+            declarations: [Dashboard_component_1.DashboardComponent]
         }), 
         __metadata('design:paramtypes', [])
-    ], AppRoutingModule);
-    return AppRoutingModule;
+    ], DashboardGUIModule);
+    return DashboardGUIModule;
 }());
-exports.AppRoutingModule = AppRoutingModule;
-//# sourceMappingURL=AppRoutingModule.js.map
+exports.DashboardGUIModule = DashboardGUIModule;
+//# sourceMappingURL=Dashboard.GUI.module.js.map

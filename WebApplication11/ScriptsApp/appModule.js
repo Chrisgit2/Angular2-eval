@@ -15,13 +15,13 @@ var AppRoutingModule_1 = require('./AppRoutingModule');
 //Feature Modul
 var Taking_GUI_module_1 = require('./GUI/Taking/Taking.GUI.module');
 var TakingCategory_GUI_module_1 = require('./GUI/TakingCategory/TakingCategory.GUI.module');
-//TakingGUIModule
+var Dashboard_GUI_module_1 = require('./GUI/Dashboard/Dashboard.GUI.module');
 var AppModule = (function () {
     function AppModule() {
     }
     AppModule = __decorate([
         core_1.NgModule({
-            imports: [platform_browser_1.BrowserModule, AppRoutingModule_1.AppRoutingModule, Taking_GUI_module_1.TakingGUIModule, TakingCategory_GUI_module_1.TakingCategoryGUIModule],
+            imports: [platform_browser_1.BrowserModule, AppRoutingModule_1.AppRoutingModule, Taking_GUI_module_1.TakingGUIModule, TakingCategory_GUI_module_1.TakingCategoryGUIModule, Dashboard_GUI_module_1.DashboardGUIModule],
             declarations: [AppComponent_1.AppComponent, AppComponent_1.Liste, AppComponent_1.Liste2],
             bootstrap: [AppComponent_1.AppComponent]
         }), 
@@ -30,7 +30,4 @@ var AppModule = (function () {
     return AppModule;
 }());
 exports.AppModule = AppModule;
-//RouterModule.forRoot([
-//    { path: 'Liste2', component: TakingListComponent },
-//    { path: 'Liste', component: TakingCategoryListComponent }       
 //# sourceMappingURL=appModule.js.map

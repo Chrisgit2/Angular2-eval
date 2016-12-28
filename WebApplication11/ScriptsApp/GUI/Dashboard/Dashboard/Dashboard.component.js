@@ -9,24 +9,16 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-var router_1 = require('@angular/router');
-var AppComponent_1 = require('./AppComponent/AppComponent');
-exports.routes = [
-    { path: '', redirectTo: 'dashboard', pathMatch: 'full' },
-    { path: 'Liste2', component: AppComponent_1.Liste2 },
-    { path: 'Liste', component: AppComponent_1.Liste }
-];
-var AppRoutingModule = (function () {
-    function AppRoutingModule() {
+var DashboardComponent = (function () {
+    function DashboardComponent() {
     }
-    AppRoutingModule = __decorate([
-        core_1.NgModule({
-            imports: [router_1.RouterModule.forRoot(exports.routes)],
-            exports: [router_1.RouterModule]
+    DashboardComponent = __decorate([
+        core_1.Component({
+            template: "\n  <h1>\u00DCbersicht</h1>\n"
         }), 
         __metadata('design:paramtypes', [])
-    ], AppRoutingModule);
-    return AppRoutingModule;
+    ], DashboardComponent);
+    return DashboardComponent;
 }());
-exports.AppRoutingModule = AppRoutingModule;
-//# sourceMappingURL=AppRoutingModule.js.map
+exports.DashboardComponent = DashboardComponent;
+//# sourceMappingURL=Dashboard.component.js.map

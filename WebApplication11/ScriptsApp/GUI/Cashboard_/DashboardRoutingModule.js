@@ -10,23 +10,20 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 var core_1 = require('@angular/core');
 var router_1 = require('@angular/router');
-var AppComponent_1 = require('./AppComponent/AppComponent');
-exports.routes = [
-    { path: '', redirectTo: 'dashboard', pathMatch: 'full' },
-    { path: 'Liste2', component: AppComponent_1.Liste2 },
-    { path: 'Liste', component: AppComponent_1.Liste }
-];
-var AppRoutingModule = (function () {
-    function AppRoutingModule() {
+var Dashboard_component_1 = require('./Dashboard/Dashboard.component');
+var DashboardRoutingModule = (function () {
+    function DashboardRoutingModule() {
     }
-    AppRoutingModule = __decorate([
+    DashboardRoutingModule = __decorate([
         core_1.NgModule({
-            imports: [router_1.RouterModule.forRoot(exports.routes)],
+            imports: [router_1.RouterModule.forChild([
+                    { path: 'dashboard', component: Dashboard_component_1.DashboardComponent }
+                ])],
             exports: [router_1.RouterModule]
         }), 
         __metadata('design:paramtypes', [])
-    ], AppRoutingModule);
-    return AppRoutingModule;
+    ], DashboardRoutingModule);
+    return DashboardRoutingModule;
 }());
-exports.AppRoutingModule = AppRoutingModule;
-//# sourceMappingURL=AppRoutingModule.js.map
+exports.DashboardRoutingModule = DashboardRoutingModule;
+//# sourceMappingURL=DashboardRoutingModule.js.map
